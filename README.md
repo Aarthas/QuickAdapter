@@ -1,0 +1,2 @@
+# QuickAdapter
+简化RecyclerView和ListView的adapter
