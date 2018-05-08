@@ -194,4 +194,7 @@ public abstract class BaseQuickAdapter<T, H extends BaseAdapterHelper> extends B
      */
     protected abstract H getAdapterHelper(int position, View convertView, ViewGroup parent);
 
+    public List<T> getData() {
+        return data;
+    }
 }

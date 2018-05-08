@@ -110,9 +110,9 @@ public class BaseAdapterHelper {
     }
 
     /**
-     * Will set the text of a TextView.
+     * Will set the setText of a TextView.
      * @param viewId The view id.
-     * @param value  The text to put in the text view.
+     * @param value  The setText to put in the setText view.
      * @return The BaseAdapterHelper for chaining.
      */
     public BaseAdapterHelper setText(int viewId, String value) {
@@ -158,9 +158,9 @@ public class BaseAdapterHelper {
     }
 
     /**
-     * Will set text color of a TextView.
+     * Will set setText color of a TextView.
      * @param viewId    The view id.
-     * @param textColor The text color (not a resource id).
+     * @param textColor The setText color (not a resource id).
      * @return The BaseAdapterHelper for chaining.
      */
     public BaseAdapterHelper setTextColor(int viewId, int textColor) {
@@ -170,9 +170,9 @@ public class BaseAdapterHelper {
     }
 
     /**
-     * Will set text color of a TextView.
+     * Will set setText color of a TextView.
      * @param viewId       The view id.
-     * @param textColorRes The text color resource id.
+     * @param textColorRes The setText color resource id.
      * @return The BaseAdapterHelper for chaining.
      */
     public BaseAdapterHelper setTextColorRes(int viewId, int textColorRes) {

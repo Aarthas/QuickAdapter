@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.text.util.Linkify;
 import android.util.SparseArray;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
 import android.widget.Adapter;
 import android.widget.AdapterView;
@@ -40,6 +41,42 @@ public class AdapterHelper extends RecyclerView.ViewHolder {
         return (Activity) getView().getContext();
     }
 
+
+    public ViewGroup getViewGroup()
+    {
+        return (ViewGroup) itemView;
+    }
+
+    public void setAdapter(RecyclerAdapter<?> adapter2,int parent) {
+        ViewGroup viewGroup = getView(parent);
+        setAdapter(adapter2,viewGroup);
+    }
+
+
+    public void setAdapter(RecyclerAdapter<?> adapter2,ViewGroup parent) {
+        int count = adapter2.getItemCount();
+
+        if (count == 0) {
+            parent.removeAllViews();
+            return;
+        } else {
+            parent.removeAllViews();
+            for (int i = 0; i < count; i++) {
+                final AdapterHelper adapterHelper = adapter2.onCreateViewHolder((ViewGroup) parent, 0);
+                adapter2.onBindViewHolder(adapterHelper, i);
+                parent.addView(adapterHelper.getView());
+//                if (dividerHeight > 0) {
+//                    View view = new View(getContext());
+//                    view.setBackgroundResource(dividerColor);
+//                    if (i != count - 1) {
+//                        ((ViewGroup)itemView).addView(view, LayoutParams.MATCH_PARENT, dividerHeight);
+//                    }
+//                }
+
+            }
+
+        }
+    }
 
 
     public <T extends View> T getView(int viewId) {
@@ -430,4 +467,6 @@ public class AdapterHelper extends RecyclerView.ViewHolder {
 
         return (int) getView().getTag();
     }
+
+
 }

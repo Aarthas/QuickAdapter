@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ITextView">
+        <attr name="yi_press_enable" format="boolean"/>
+
+        <attr name="yi_corners" format="dimension"/>
+
+
+        <attr name="yi_stroke_width" format="dimension"/>
+
+        <attr name="yi_solid_color" format="color"/>
+        <attr name="yi_solid_color_pressed" format="color"/>
+        <attr name="yi_solid_color_selected" format="color"/>
+        <attr name="yi_solid_color_unable" format="color"/>
+
+
+        <attr name="yi_stroke_color" format="color"/>
+        <attr name="yi_stroke_color_pressed" format="color"/>
+        <attr name="yi_stroke_color_unable" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ITextColor">
+        <attr name="yi_text_color_normal" format="color"/>
+        <attr name="yi_text_color_pressed" format="color"/>
+        <attr name="yi_text_color_selected" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="IImageView">
+        <attr name="yi_img_selected" format="reference"/>
+        <attr name="yi_img_pressed" format="reference"/>
+        <attr name="yi_img_normal" format="reference"/>
+        <attr name="yi_img_unable" format="reference"/>
+
+    </declare-styleable>
+</resources>
