@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickadapter/quickadapter.iml" filepath="$PROJECT_DIR$/quickadapter/quickadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickadapter/quickadapter.iml" filepath="$PROJECT_DIR$/quickadapter/quickadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickwidget/quickwidget.iml" filepath="$PROJECT_DIR$/quickwidget/quickwidget.iml" />
     </modules>
   </component>
 </project>
