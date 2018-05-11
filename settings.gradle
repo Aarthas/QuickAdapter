@@ -1,2 +1,2 @@
-include ':app', ':quickadapter'
+include ':app', ':quickadapter', ':fineevent'
 include ':quickwidget'

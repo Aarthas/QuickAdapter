@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:support-v4:25.3.1'
     compile project(':quickadapter')
     compile project(':quickwidget')
+    compile project(':fineevent')
 }

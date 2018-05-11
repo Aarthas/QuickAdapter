@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QuickAdapter.iml" filepath="$PROJECT_DIR$/QuickAdapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/QuickAdapter.iml" filepath="$PROJECT_DIR$/QuickAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quickadapter/quickadapter.iml" filepath="$PROJECT_DIR$/quickadapter/quickadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fineevent/fineevent.iml" filepath="$PROJECT_DIR$/fineevent/fineevent.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickadapter/quickadapter.iml" filepath="$PROJECT_DIR$/quickadapter/quickadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickwidget/quickwidget.iml" filepath="$PROJECT_DIR$/quickwidget/quickwidget.iml" />
     </modules>
